@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 //   fetch("../Sidemenu/Sidemenu.HTML")
-  fetch("/Pages/Sidemenu/sidemenu.HTML")
+  fetch("./Pages/Sidemenu/sidemenu.HTML")
     .then(response => response.text())
     .then(data => {
       document.getElementById("leftSideMenu").innerHTML = data;
