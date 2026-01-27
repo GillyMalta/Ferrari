@@ -108,7 +108,7 @@ hr {
     margin: 0 var(--std_One_Rem);
     grid-column: 1 / -1;
 }
-/* 
+
 #leftSideMenu{
     margin: 0;
     display: flex;
@@ -139,7 +139,7 @@ hr {
 
 .svg:hover {
     transform: scale(1.1);
-} */
+}
 
 nav,
 header,
