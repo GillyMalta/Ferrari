@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 //   fetch("../Sidemenu/Sidemenu.HTML")
-  fetch("/Pages/Firstnav/firstnav.html")
+  fetch("./Pages/Firstnav/firstnav.html")
     .then(response => response.text())
     .then(data => {
       document.getElementById("firstNav").innerHTML = data;
