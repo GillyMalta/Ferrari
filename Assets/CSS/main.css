@@ -90,7 +90,7 @@ html {
 }
 
 body {
-    margin: 0 0 0 var(--std_Ten_Rem);
+    margin: 0 0 0 10rem;
     background-color: var(--std_Colour_Lightgrey);
 }
 
