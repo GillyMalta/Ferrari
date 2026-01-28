@@ -237,15 +237,10 @@ header p {
     margin-left: var(--std_Thirty_Rem);
     text-align: justify;
 }
-/* 
-#slideshow {
-    height: var(--std_VH_40);
-    display: none;
-}
 
-#slideshow img {
-    width: fit-content;
-} */
+#slideshow {
+    width: -webkit-fill-available;
+}
 
 main {
     display: grid;
