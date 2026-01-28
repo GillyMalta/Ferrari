@@ -90,7 +90,7 @@ html {
 }
 
 body {
-    margin: 0 0 0 10rem;
+    margin: 0 0 0 var(--std_Ten_Rem);
     background-color: var(--std_Colour_Lightgrey);
 }
 
@@ -134,7 +134,7 @@ hr {
     width: 60%;
     opacity: 0.4;
     border-radius: var(--std_Three_Rem);
-    transition: ease-in 0.5s;
+    transition: ease-in var(--std_Time_Halfsec);
 }
 
 .svg:hover {
@@ -146,7 +146,7 @@ header,
 #slideshow,
 main,
 aside,
-#testing,
+#mainContainer,
 footer,
 #aboutMe,
 #socialmedia,
@@ -214,10 +214,8 @@ form,
     }
 }
 
-
 header {
     height: fit-content;
-    /* background-repeat: no-repeat; */
 }
 
 header img {
@@ -242,7 +240,7 @@ header p {
 
 #slideshow {
     height: var(--std_VH_40);
-    display: none;
+    /* display: none; */
 }
 
 main {
@@ -252,8 +250,8 @@ main {
 
 #showcase {
     border: solid black 1px;
-    margin: 0.5rem;
-    padding: 0.5rem;
+    margin: var(--std_Half_Rem);
+    padding: var(--std_Half_Rem);
     width: 97.6%;
     aspect-ratio: 16 / 9;
     display: flex;
@@ -271,14 +269,21 @@ aside {
     display: flex;
     height: 82vh;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: var(--std_Half_Rem);
     overflow-y: auto;      
     overflow-x: hidden;
+    gap: var(--std_One_Rem);
 }
 
 aside img {
     cursor: pointer;
     width: 100%;
+    border: solid var(--std_Colour_Black) 1px;
+    margin-top: var(--std_One_Rem);
+}
+
+#mainContainer {
+    grid-column: 1 / -1;
 }
 
 footer {
@@ -288,8 +293,12 @@ footer {
     height: auto;
 }
 
+footer h2 {
+    margin: 0;
+}
+
 #aboutMe {
-    height: auto;
+    height: inherit;
     box-shadow: none;
     padding: var(--std_Half_Rem);
 }
@@ -303,45 +312,26 @@ footer {
 }
 
 #socialmedia {
-
     height: auto;
-    display: grid;
-    grid-template-columns: 20% auto;
-    grid-template-rows: repeat(4 ,1fr);
-    text-align: left;
-    gap: var(--std_One_Rem);
-    padding: var(--std_One_Rem);
-    border: solid var(--std_Colour_Black) 1px;
-    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    gap: var(--std_Three_Rem);
 }
 
-#socialmedia a {
-    grid-column: 1;
-    align-content: center;
-    transition: ease-in var(--std_Time_Halfsec);
-}
-
-#socialmedia a:hover {
-    transform: scale(1.1);
-}
-
-#socialmedia h3 {
-    grid-column: 2;
-    align-content: center;
+#socialmedia h2 {
+    text-align: start;
 }
 
 .socialsvg {
-    width: 50%;
-    opacity: 1;
-    border: solid var(--std_Colour_Black) 1px;
-    border-radius: var(--std_Three_Rem);
-    margin: 0;
-    padding: var(--std_Half_Rem);
+    width: 10%;
 }
+
 
 form {
     display: grid;
-    grid-template-columns: 40% auto;
+    grid-template-columns: 30% auto;
     height: auto;
 }
 
@@ -353,7 +343,6 @@ button {
     border: none;
     border: solid var(--std_Colour_Black) 1px;
     margin: var(--std_Half_Rem);
-    padding: var(--std_Half_Rem);
 }
 
 input::placeholder {
@@ -363,6 +352,7 @@ input::placeholder {
 label {
     text-align: end;
     align-self: anchor-center;
+    font-weight: bold;
 }
 
 select {

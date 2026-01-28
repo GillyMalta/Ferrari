@@ -1,0 +1,30 @@
+dialog {
+    margin: auto;
+    width: fit-content;
+    overflow: hidden;
+    border: solid black 1px;
+    /* position: relative; */
+    position: fixed;
+    text-align: center;
+    background-color: lightgray;
+}
+
+dialog p {
+    font-size: 1rem;
+    margin: 0.5rem 0 0 0;
+}
+
+dialog button {
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    font-size: 1rem;
+    border: none;
+    background-color: white;
+    position: absolute;
+    background-color: lightgray;
+}
+
+dialog h1 {
+    margin: 0;
+}

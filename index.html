@@ -3,31 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | 25.01</title>
+    <title>Ferrari | 28.01</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./Assets/CSS/main.css">
+    <link rel="stylesheet" href="/Assets/CSS/main.css">
+    <link rel="stylesheet" href="/Assets/CSS/spanned.css">
+    <link rel="stylesheet" href="/Assets/Css/modal.css">
 </head>
 <body>
     
+<dialog id="modal">
+    <h1>Hello and welcome to my project</h1>
+
+    <h2>This version was launched in January 2026</h2>
+
+    <h4>The site is built using semantic HTML wherever appropriate, ensuring clear structure, accessibility, and maintainability.</h4>
+
+    <h4> Styling is handled with modern CSS, and behavior is managed through separation of concerns between
+        <br>structure (HTML), presentation (CSS), and logic (JavaScript).
+    </h4>
+
+    <h4>You are encouraged to view the page source or explore my portfolio to examine the code, patterns, and techniques
+        <br>used throughout this project. Feel free to reuse or adapt any of the implementations for your own work.
+    </h4>
+
+    <h4>Use the left-side menu to get in contact with me via email, whatsapp or form.
+        <br><br>Or find my contacts here: Gilbert Sammut | 
+
+        <a href="mailto:gilbert@79297110.com?subject=Contact%20from%20website" aria-label="Send me an email" id="email" target="_blank">gilbert@79297110.com </a>
+        |
+        <a href="mailto:gilbert@79297110.com?subject=Contact%20from%20website" aria-label="Send me an email" id="email" target="_blank">+356 7929 7110</a>
+    </h4>
+
+    <p>Click the close button <strong>&#8599;</strong> to continue</p>
+    <button id="closeModal">Close</button>
+</dialog>
+
 <section id="leftSideMenu">
+    <a href="#firstNav" aria-label="Back to the top">
+    <img src="/Assets/Images/start.png" class="svg" alt="start">
+    </a>
+
+    <a href="mailto:gilbert@79297110.com?subject=Contact%20from%20website" aria-label="Send me an email" id="email" target="_blank">
+    <img src="/Assets/Images/email.svg" class="svg" alt="email">
+    </a>
+
+    <a href="https://wa.me/0035679297110" target="_blank" aria-label="Send me a message" id="wapp">
+    <img src="/Assets/Images/wapp.svg" class="svg" alt="wapp">
+    </a>
+
+    <a href="#contact-form" aria-label="Fill in the form">
+    <img src="/Assets/Images/form.svg" class="svg" alt="form">
+    </a>
+
+    <a href="#copyright" aria-label="Scroll to the bottom">
+    <img src="/Assets/Images/end.svg" class="svg" alt="end">
+    </a>
 </section>
 
 <nav id="firstNav">
+    <span id="output">00:00:00</span>
 </nav>
 
 <hr>
 
 <nav id="secondNav">
+
+    <a href="https://www.ferrari.com/en-MT" target="_blank">
+        Ferrari 
+        <br> 
+        Official Website
+    </a>
+
+    <div class="divider">|</div>
+
+    <a href="https://www.ferrari.com/en-EN/formula1" target="_blank">
+        Sccuderia Ferrari HP 
+        <br> 
+        Official Website
+    </a>
+
+    <div class="divider">|</div>
+
+    <a href="https://www.ferrari.com/en-EN/corse-clienti/cars" target="_blank">
+        Ferrari Corse Clienti
+        <br>
+        Official Website
+    </a>
+
+    <div class="divider">|</div>
+
+    <a href="http://museomaranello.ferrari.com/" target="_blank">
+        Museo Ferrari
+        <br>
+        Maranello
+    </a>
+
+    <div class="divider">|</div>
+
+    <a href="https://en.wikipedia.org/wiki/Ferrari" target="_blank">
+        Ferrari 
+        <br>
+        Wikipedia
+    </a>
+
+    <div class="divider">|</div>
+
+    <a href="https://www.ferrari.com/en-EN/magazine/articles/enzos-dream-celebrating-enzos-birthday" target="_blank">
+        Enzo's 
+        <br>
+        Dream
+    </a>
+
 </nav>
 
 <hr>
 
 <header id="header">
+    <img src="/Assets/Images/Enzo_Ferrari.jpg" class="ferrari">
+
+    <h2>Ferrari. The man, the legend!</h2>
+
+    <p>
+    Enzo Ferrari, born in 1898 in Modena, Italy, was a passionate racing enthusiast who founded Scuderia Ferrari 
+    in 1929 as a racing team for Alfa Romeo. In 1947, after parting ways with Alfa Romeo, he established 
+    Ferrari S.p.A. and introduced the first Ferrari-badged car, the 125 S, powered by a V12 engine—a symbol 
+    of Ferrari's engineering brilliance and dedication to performance.
+    <br><br>
+
+    Ferrari quickly gained fame for its dominance in motorsport, particularly in Formula One, becoming the most 
+    successful team in the sport’s history. Over the decades, the company also evolved into a luxury carmaker, 
+    crafting high-performance road cars that combined cutting-edge technology with Italian artistry.
+    <br><br>
+
+    Today, Ferrari remains one of the most prestigious car brands in the world, with its headquarters in Maranello, 
+    Italy. It continues to innovate in both motorsport and luxury vehicles, integrating hybrid technology with models
+    such as the SF90 Stradale and embracing sustainability while preserving its tradition of excellence. 
+    Beyond cars, Ferrari has expanded its global influence with iconic museums. The Museo Ferrari in Maranello 
+    celebrates the company’s history in motorsport and engineering, while the Enzo Ferrari Museum in Modena offers 
+    an in-depth look at the founder’s life and the origins of the Ferrari legacy.
+    <br><br>
+    Ferrari’s legacy is defined by its relentless pursuit of speed, innovation, and style, epitomising the 
+    pinnacle of automotive excellence and inspiring a global passion for high-performance cars. Its museums 
+    attract enthusiasts from around the world, serving as a testament to its cultural and automotive impact
+    </p>
+    
 </header>
 
 <section id="slideshow">
+    <h2>
+        &lt;Slideshow&gt;
+        <br>
+        &lt;display: none&gt;
+    </h2>
 </section>
 
 <hr>
@@ -37,36 +166,155 @@
 
 <aside id="aside">
 
-    <img class="thumb" src="./Assets/Images/car1.jpg" data-large="./Assets/Images/car1.jpg" alt="Thumbnail">
-    <img class="thumb" src="./Assets/Images/car2.jpg" data-large="./Assets/Images/car2.jpg" alt="Thumbnail" >
-    <img class="thumb" src="./Assets/Images/car3.jpg" data-large="./Assets/Images/car3.jpg" alt="Thumbnail" >
-    <img class="thumb" src="./Assets/Images/car4.jpg" data-large="./Assets/Images/car4.jpg" alt="Thumbnail" >
-    <img class="thumb" src="./Assets/Images/car5.jpg" data-large="./Assets/Images/car5.jpg" alt="Thumbnail" >
-    <img class="thumb" src="./Assets/Images/car6.jpg" data-large="./Assets/Images/car6.jpg" alt="Thumbnail" >
-    <img class="thumb" src="./Assets/Images/car7.jpg" data-large="./Assets/Images/car7.jpg" alt="Thumbnail" >
-    <img class="thumb" src="./Assets/Images/engine1.jpg" data-large="./Assets/Images/engine1.jpg" alt="Thumbnail">
-    <img class="thumb" src="./Assets/Images/engine2.jpg" data-large="./Assets/Images/engine2.jpg" alt="Thumbnail">
-    <img class="thumb" src="./Assets/Images/engine3.jpg" data-large="./Assets/Images/engine3.jpg" alt="Thumbnail">
+    <img class="thumb" src="/Assets/Images/car1.jpg" data-large="/Assets/Images/car1.jpg" alt="Thumbnail">
+    <img class="thumb" src="/Assets/Images/car2.jpg" data-large="/Assets/Images/car2.jpg" alt="Thumbnail" >
+    <img class="thumb" src="/Assets/Images/car3.jpg" data-large="/Assets/Images/car3.jpg" alt="Thumbnail" >
+    <img class="thumb" src="/Assets/Images/car4.jpg" data-large="/Assets/Images/car4.jpg" alt="Thumbnail" >
+    <img class="thumb" src="/Assets/Images/car5.jpg" data-large="/Assets/Images/car5.jpg" alt="Thumbnail" >
+    <img class="thumb" src="/Assets/Images/car6.jpg" data-large="/Assets/Images/car6.jpg" alt="Thumbnail" >
+    <img class="thumb" src="/Assets/Images/car7.jpg" data-large="/Assets/Images/car7.jpg" alt="Thumbnail" >
+    <img class="thumb" src="/Assets/Images/engine1.jpg" data-large="/Assets/Images/engine1.jpg" alt="Thumbnail">
+    <img class="thumb" src="/Assets/Images/engine2.jpg" data-large="/Assets/Images/engine2.jpg" alt="Thumbnail">
+    <img class="thumb" src="/Assets/Images/engine3.jpg" data-large="/Assets/Images/engine3.jpg" alt="Thumbnail">
 
 </aside>
 
 <section id="showcase">
-    <img src="./Assets/Images/car1.jpg">
+    <img src="/Assets/Images/car1.jpg">
 </section>
 
 <hr>
+
+<div id="mainContainer">
+
+    <div id="span_Container">
+
+        <div class="card">
+
+            <p>
+                <span>
+                    <a href="/Assets/Images/car1.jpg" target="_blank">
+                        <img src="./Assets/Images/car1.jpg">
+                    </a>
+                </span>
+            </p>
+
+            <p>
+                <span>
+                    <a href="/Assets/Images/car2.jpg" target="_blank">
+                        <img src="./Assets/Images/car2.jpg">
+                    </a>
+                </span>
+            </p>
+
+            <p>
+                <span>
+                    <a href="/Assets/Images/car3.jpg" target="_blank">
+                        <img src="./Assets/Images/car3.jpg">
+                    </a>
+                </span>
+            </p>
+
+            <p>
+                <span>
+                    <a href="/Assets/Images/car4.jpg" target="_blank">
+                        <img src="./Assets/Images/car4.jpg">                    
+                    </a>
+                </span>
+            </p>
+
+            <p>
+                <span>
+                    <a href="/Assets/Images/car5.jpg" target="_blank">
+                        <img src="./Assets/Images/car5.jpg">
+                    </a>
+                </span>
+            </p>
+
+            <p>
+                <span>
+                    <a href="/Assets/Images/car6.jpg" target="_blank">
+                        <img src="./Assets/Images/car6.jpg">
+                    </a>
+                </span>
+            </p>
+
+
+            <p>
+                <span>
+                    <a href="/Assets/Images/car7.jpg" target="_blank">
+                        <img src="./Assets/Images/car7.jpg">
+                    </a>
+                </span>
+            </p>
+
+        </div> <!-- Closing .card -->
+
+    </div> <!-- Closing #span_Container-->
+
+</div> <!-- Closing #mainContainer-->
+
 
 <footer id="footer">
 
     <h2></h2>
 
     <section id="aboutMe">
+
+        <h2>A little more about me will follow later</h2>
+
+        <img src="/Assets/Images/ComingSoon.png">
+
     </section>
 
     <section id="socialmedia">
+
+        <h2>Links to all my online presence.</h2>
+
+            <a href="#">
+                <img src="/Assets/Images/facebook.svg" class="socialsvg">
+            </a>
+
+            <a href="#">
+                <img src="/Assets/Images/github.svg" class="socialsvg">
+            </a>
+
+            <a href="#">
+                <img src="/Assets/Images/instagram.svg" class="socialsvg">
+            </a>
+
+            <a href="#">
+                <img src="/Assets/Images/linkedin.svg" class="socialsvg">
+            </a>
+
     </section>
 
 <form id="contact-form" autocomplete="off">
+
+    <h2>Contact me!</h2>
+
+    <label class="required" for="name">Name and Surname :</label>
+    <input id="name" type="text" name="name" placeholder="Your name and surname" required autocomplete="off">
+
+    <label class="required" for="email">Email Address :</label>
+    <input id="email" type="email" name="email" placeholder="Your email address" required autocomplete="off">
+
+    <label class="required" for="phone">Phone Number :</label>
+    <input id="phone" type="tel" name="phone" placeholder="Your phone number" required autocomplete="off">
+
+    <label for="help">How can I help you? </label>
+    <select id="help" name="help">
+        <option value="Collaboration">Collaboration</option>
+        <option value="More Information">More Information</option>
+        <option value="Content Removal">Content Removal</option>
+        <option value="callback">Callback</option>
+    </select>
+
+    <label for="message">Want to add a comment?</label>
+    <textarea id="message" name="message"></textarea>
+
+    <button id="sendit" type="submit">Send It!</button>
+
 </form>
 
 </footer>
@@ -74,6 +322,32 @@
 <hr>
 
 <section id="disclaimer">
+
+    <h2>Copyright and Disclaimer</h2>
+    All the photographs featured on this website were taken by my wife or me during our myriad travels across myriad villages, towns, cities and countries.
+    These were taken at public places such as squares, museums, gardens or at our home and residence.
+    <br>
+    For this website, Ferrari car and engine images taken by me at the <a href="https://www.ferrari.com/it-IT/museums/enzo-ferrari-modena" target="_blank"> Museo Enzo Ferrari, Modena</a> 
+    in August 2018. 
+    <br><br>
+    As such, these images are my original work and are presented solely for personal, educational and portfolio purposes.
+    <br>
+    No copyright or trademark infringement is intended.
+    <br><br>
+    All trademarks, logos, brand names, and vehicle models shown or referenced are the property of their respective owners.
+    This site is not affiliated with, endorsed by, or sponsored by Ferrari S.p.A. or any other brand represented.
+    <br>
+    If you are a rights holder and have any concerns regarding the use of any image, please contact me directly via 
+    <a href="mailto:gilbert@79297110.com?subject=Contact%20from%20website">Email</a>, 
+    <a href="https://wa.me/0035679297110" target="_blank">Whatsapp message </a> or fill-in my 
+    <a href="contact-form">contact form</a> 
+    and I will promptly address the matter.
+    <br><br>
+    As indicated by the Wikipedia Commons, the Enzo Ferrari image is public domain as indicated <a href="https://en.wikipedia.org/wiki/File:Enzo_Ferrari_-_Wheel_of_a_racing_car.jpg">here.</a>
+    <br>
+    Ferrari logo (SVG format), various SVG and PNG images and icons courtesy of <a href="https://icons8.com/">Icons8 at Icons8.com</a> 
+    and <a href="https://www.svgrepo.com/">SVG Repo at svgrepo.com</a>
+
 </section>
 
 </main>
@@ -81,28 +355,32 @@
 <hr>
 
 <section id="copyright">
+
+    &copy; Gilbert Sammut | 2026
+        <div>|</div>
+
+    <a href="#">Site HTML</a>
+        <div>|</div>
+    <a href="#">site CSS</a>
+        <div>|</div>
+    <a href="#">Time JS</a>
+        <div>|</div>
+    <a href="#">Fetch API JS</a>
+        <div>|</div>
+    <a href="#">Showcase JS</a>
+        <div>|</div>
+    <a href="#">Email JS</a>
+
 </section>
 
-<script type="module" src="./Pages/Sidemenu/sidemenu.js"></script>
+<script type="module" src="/Pages/Firstnav/time.js"></script>
 
-<script type="module" src="./Pages/Firstnav/time.js"></script>
-<script type="module" src="./Pages//Firstnav/firstnav.js"></script>
+<script type="module" src="/Pages/Thumbs/thumbnails.js"></script>
 
-<!-- <script type="module" src="./Pages/Secondnav/secondnav.js"></script> -->
-<!-- <script type="module" src="./Pages/Header/header.js"></script> -->
-<!-- <script type="module" src="slideshow.js"></script> -->
-
-<script type="module" src="./Pages/Thumbs/thumbnails.js"></script>
-
-<!-- <script type="module" src="./Pages/Aboutme/aboutme.js"></script> -->
-<!-- <script type="module" src="./Pages/Socialmedia/socialmedia.js"></script> -->
-<!-- <script type="module" src="./Pages/Form/form.js"></script> -->
-
-<!-- <script type="module" src="./Pages/Disclaimer/disclaimer.js"></script> -->
-<!-- <script type="module" src="./Pages/Copyright/copyright.js"></script> -->
+<script type="module" src="/Pages/Modal/modal.js"></script>
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"> </script>
-<script type="module" src="./Pages/Email/email.js"></script>
+<script type="module" src="/Pages/Email/email.js"></script>
 
 </body>
 </html>
