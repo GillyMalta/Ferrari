@@ -373,14 +373,14 @@ button:hover {
 
 #disclaimer {
     grid-column: 1 / -1;
-    font-size: var(--std_Half_Rem);
+    font-size: var(--std_One_Rem);
     text-align: center;
 }
 
 #disclaimer h2 {
     margin: 0 0 0 var(--std_Thirty_Rem);
     text-align: justify;
-    font-size: var(--std_One_Rem);
+    font-size: var(--std_Five_Rem);
     color: var(--std_Colour_DC0000)
 }
 
