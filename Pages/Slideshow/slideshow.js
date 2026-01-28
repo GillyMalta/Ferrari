@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-//   fetch("../Sidemenu/Sidemenu.HTML")
+//   fetch(".Pages/Sidemenu/Sidemenu.HTML")
   fetch("/slideshow.HTML")
     .then(response => response.text())
     .then(data => {
