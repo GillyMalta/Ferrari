@@ -190,7 +190,7 @@ form,
     color: var(--std_Colour_Black);
     transition: ease-in var(--std_Time_Onesec);
     text-align: center;
-    background-image: url(/Assets/Images/fire1.jpg);
+    background-image: url(./Assets/Images/fire1.jpg);
     background-clip: text;
     color: transparent;
     animation: motion 30s linear infinite;
