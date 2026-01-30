@@ -145,7 +145,7 @@ switch9.addEventListener("change", () => {
 
     if (switch9.checked) {
       console.log("IT IS ON!!")
-        document.getElementById("copyright").style.display = "grid"
+        document.getElementById("copyright").style.display = "flex"
 
     } else {
       console.log("IT IS OFF!!")
