@@ -167,6 +167,16 @@ form,
     height: fit-content;
 }
 
+#switches {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    height: fit-content;
+    padding: 0;
+}
+
+
 #output {
     color: var(--std_Colour_E5EDFF);
 }
